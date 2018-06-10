@@ -3,4 +3,19 @@ name = "yummy"
 version = "0.1.0"
 authors = ["Pierre Zemb <contact@pierrezemb.fr>"]
 
+[lib]
+name = "yummy"
+
+[[bin]]
+name = "yummy-directory"
+
+[[bin]]
+name = "yummy-cli"
+
 [dependencies]
+structopt = "0.2.10"
+serde = "1.0"
+serde_yaml = "0.7"
+
+log = "0.4"
+simplelog = "0.5.2"
