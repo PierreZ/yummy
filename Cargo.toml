@@ -10,12 +10,12 @@ name = "yummy"
 name = "yummy-directory"
 
 [[bin]]
-name = "yummy-cli"
+name = "yummy"
 
 [dependencies]
 structopt = "0.2.10"
-serde = "1.0"
-serde_yaml = "0.7"
-
+config = "0.8.0"
 log = "0.4"
 simplelog = "0.5.2"
+serde_derive = "1.0.66"
+serde = "1.0.66"
